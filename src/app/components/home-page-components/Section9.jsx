@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Heading from "./Heading";
+import Heading from "./small-components/Heading";
 import { SlCalender } from "react-icons/sl";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import BlogsPreview from "./BlogsPreview";
+import BlogsPreview from "./small-components/BlogsPreview";
 
 
 function Section9() {

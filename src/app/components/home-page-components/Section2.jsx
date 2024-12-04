@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Heading from "./Heading";
+import Heading from "./small-components/Heading";
 
 function Section2() {
     return (

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Heading from "./Heading";
+import Heading from "./small-components/Heading";
 import Image from "next/image";
 
 function Section6() {

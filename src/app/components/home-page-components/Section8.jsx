@@ -1,4 +1,4 @@
-import Heading from "./Heading";
+import Heading from "./small-components/Heading";
 
 function Section8() {
     return (

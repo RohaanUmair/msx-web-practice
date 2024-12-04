@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Heading from "./Heading";
+import Heading from "./small-components/Heading";
 
 function Section5() {
     const [data, setData] = useState([]);
