@@ -1,0 +1,42 @@
+[
+    {
+        "heading": "Health Tech",
+        "desc": "Revolutionize healthcare administration by integrating AI-powered EHR or mHealth solutions to manage patient records and workflows seamlessly",
+        "imgSrc": "https://images.unsplash.com/photo-1732901812656-1e3c79d414f7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "Ed Tech",
+        "desc": "Say goodbye to paperwork, personalize teaching approaches, lower operating costs, and broaden your market scope with e-learning platforms.",
+        "imgSrc": "https://images.unsplash.com/photo-1580173368206-d8dc5ba0ae4d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI0fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "Retail",
+        "desc": "Build innovative systems with modern technology and data analytics for efficient inventory and supply chain management for streamlined operations.",
+        "imgSrc": "https://images.unsplash.com/photo-1612712190432-41852d0187c9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM2fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "AI Diagnostics",
+        "desc": "Develop AI solutions to enhance diagnostic precision and efficiency, like creating image recognition software tailored for analyzing medical scans.",
+        "imgSrc": "https://images.unsplash.com/photo-1453959022778-cfda85dbe0f9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "Green Tech",
+        "desc": "Reduce carbon emissions, optimize energy usage, and streamline the waste management process with the help of transformative custom AI solutions.",
+        "imgSrc": "https://images.unsplash.com/photo-1732466385485-b82de0e28ec5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "IoT",
+        "desc": "Transform industrial operations by developing revolutionary IoT solutions for real-time equipment monitoring and automated inventory management.",
+        "imgSrc": "https://images.unsplash.com/photo-1732130318657-c8740c0f5215?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU1fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "Fin Tech",
+        "desc": "Elevate your financial ventures by automating, scaling, and securing your business operations or launching pioneering Fintech products quickly.",
+        "imgSrc": "https://images.unsplash.com/photo-1732201715630-dabf1f0143d1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    },
+    {
+        "heading": "HIPAA Compliance",
+        "desc": "Ensure HIPAA compliance with our AI solutions to protect the privacy and integrity of patient health information, prioritizing security measures.",
+        "imgSrc": "https://images.unsplash.com/photo-1614785246748-edc43ab91f76?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc4fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "imgSrc": "/s1.webp",
+        "heading": "Understand pattern identification",
+        "text": "MSX Methodology revolves around understanding pattern identification. It involves analyzing data to identify and extract significant patterns."
+    },
+    {
+        "imgSrc": "/s2.webp",
+        "heading": "Pattern mapping user stories",
+        "text": "Pattern mapping user stories is the second step in MSX Methodology. It involves categorizing user stories according to recognized patterns."
+    },
+    {
+        "imgSrc": "/s3.webp",
+        "heading": "Wireframe and front end",
+        "text": "After pattern mapping, Our dedicated team creates wireframes and front-end designs. They align with the identified patterns and user stories."
+    },
+    {
+        "imgSrc": "/s4.webp",
+        "heading": "Model development and training",
+        "text": "Model development and training involves the development of machine learning models and training using the identified patterns and data."
+    },
+    {
+        "imgSrc": "/s5.webp",
+        "heading": "Development and deployment",
+        "text": "Development and deployment is the final step in MSX Methodology. The developed models are integrated into the software and deployed for use."
+    }
+]
