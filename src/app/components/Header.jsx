@@ -32,6 +32,8 @@ function Header() {
     ];
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -71,7 +73,19 @@ function Header() {
 
             <button className="max-sm:hidden bg-gradient-to-r from-purple-500 to-purple-400 text-white px-3 py-3 rounded text-base hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500">Free AI Consultation</button>
 
-            <MdMenu className="sm:hidden text-3xl cursor-pointer text-black" />
+            <MdMenu className="sm:hidden text-3xl cursor-pointer text-black" onClick={() => setIsMenuOpen(!isMenuOpen)} />
+
+            {isMenuOpen && (
+                <div className="absolute top-full left-0 w-full bg-white shadow-lg sm:hidden">
+                    <nav className="flex flex-col items-start p-4">
+                        {navs.map((nav, index) => (
+                            <Link href={nav.href} key={index}>
+                                <p className="py-2 pl-4 pr-6 text-black hover:bg-gray-200 w-full">{nav.name}</p>
+                            </Link>
+                        ))}
+                    </nav>
+                </div>
+            )}
         </header>
     )
 }
