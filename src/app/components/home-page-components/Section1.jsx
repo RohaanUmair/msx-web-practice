@@ -1,28 +1,25 @@
+import Link from "next/link";
+
 function Section1() {
     return (
-        <div className="h-screen w-full pt-[100px] flex flex-col items-center justify-center gap-9 text-white sm:mb-24">
-            <h1 className="text-6xl sm:w-[60%] text-center font-bold leading-snug max-sm:text-2xl ">
-                Your Trusted AI Development Company
-            </h1>
+        <div className="bg-cover bg-center h-screen w-full pt-[100px] sm:px-24 max-sm:px-8" style={{ backgroundImage: 'url("/msx-bg.jpeg")' }}>
+            <div className="w-1/2 text-white h-full flex flex-col justify-center max-sm:w-full">
+                <h1 className="text-4xl font-bold max-sm:text-3xl">Empower Your Business & Skills with Expert IT Services and Courses</h1>
 
-            <h2 className="w-[45%] text-2xl text-center max-sm:text-xl max-sm:w-[90%]">
-                We build meaningful AI Healthcare Solutions to shape the future of your
-                business
-            </h2>
+                <p className="text-2xl mt-4 font-semibold max-sm:text-xl">Start your journey to success today!</p>
 
-            <button className="max-sm:scale-75 text-white px-5 py-3 rounded text-lg bg-gradient-to-r from-purple-500 to-purple-400 hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500">
-                Get Free AI Consultation
-            </button>
+                <div className="flex gap-4 flex-col mt-5">
+                    <Link href={'/courses'}>
+                        <button className="bg-gradient-to-r from-purple-500 to-purple-400 px-7 py-3 rounded hover:from-transparent hover:to-transparent hover:text-purple-500 hover:border hover:border-purple-500 border border-transparent">BROWSE COURSES</button>
+                    </Link>
 
-            <video
-                className="absolute inset-0 w-full h-full object-cover z-[-1]"
-                src="/banner-video.mp4"
-                autoPlay
-                muted
-                loop
-            />
+                    <Link href={'/services'}>
+                        <button className="bg-gradient-to-r from-purple-500 to-purple-400 px-7 py-3 rounded hover:from-transparent hover:to-transparent hover:text-purple-500 hover:border hover:border-purple-500 border-transparent border">EXPLORE SERVICES</button>
+                    </Link>
+                </div>
+            </div>
         </div>
-    );
+    )
 }
 
 export default Section1;

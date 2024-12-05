@@ -15,7 +15,7 @@ function SwitchBgImgsSection() {
     const row1 = data.slice(0, 4);
     const row2 = data.slice(4);
 
-    const [bg, setBg] = useState('https://images.unsplash.com/photo-1732692695680-f4c37b5bbbea?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D')
+    const [bg, setBg] = useState('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXxlbnwwfHwwfHx8MA%3D%3D')
 
     const [focused, setFocused] = useState('Health Tech');
 

@@ -1,6 +1,6 @@
-import Section2 from "./components/main-page-components/Section2";
-import Section1 from "./components/main-page-components/Section1";
-import Section3 from "./components/main-page-components/Section3";
+import Section2 from "./components/home-page-components/Section2";
+import Section1 from "./components/home-page-components/Section1";
+import Section3 from "./components/home-page-components/Section3";
 
 function HomePage() {
     return (

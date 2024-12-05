@@ -1,6 +1,7 @@
 'use client';
 import Image from "next/image";
 import Link from "next/link"
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -9,16 +10,18 @@ import { MdMenu } from "react-icons/md";
 
 
 function Header() {
+    const path = usePathname();
+
     const navs = [
         {
+            name: 'Home',
+            href: '/'
+        }, {
             name: 'Services',
             href: '/services'
         }, {
-            name: 'Salesforce',
-            href: '/salesforce'
-        }, {
-            name: 'Industries',
-            href: '/industries'
+            name: 'Courses',
+            href: '/courses'
         }, {
             name: 'Portfolio',
             href: '/portfolio'

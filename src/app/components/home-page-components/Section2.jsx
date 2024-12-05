@@ -1,48 +1,12 @@
-import Image from "next/image";
-import Heading from "./small-components/Heading";
+import CardSec2 from "./small-components/CardSec2";
 
 function Section2() {
     return (
-        <div className="w-full pb-24 bg-white sm:px-24 flex items-center max-sm:flex-col max-sm:mt-6">
-            <div className="w-1/2 flex flex-col gap-8 max-sm:w-[90%]">
-            <Heading text={"Drive Unstoppable Business Success Through AI!"} />
-
-                <p className="text-gray-600 leading-7 text-base max-sm:text-sm">
-                    Maximize your business potential with our exceptional AI Development
-                    Services. Our customer-centric and passionate team of engineers is
-                    committed to delivering tailored solutions that exceed your
-                    expectations.
-                </p>
-
-                <p className="text-gray-600 leading-7 text-base max-sm:text-sm">
-                    We leverage our expertise in machine learning, deep learning, and AI
-                    development to deliver exceptional solutions in NLP, computer vision,
-                    predictive analytics, generative AI, AI chatbot development, and more.
-                </p>
-
-                <p className="text-gray-600 leading-7 text-base max-sm:text-sm">
-                    Our AI-based solutions offer a clear pathway to success, helping
-                    businesses improve decision-making, automate operations, save time,
-                    and boost profits. Partner with MSX Solutions – AI Experts in
-                    Pakistan, to seamlessly integrate, scale, and access data-driven
-                    insights, leading to exceptional business outcomes.
-                </p>
-
-                <button className="max-sm:mx-auto max-sm:mb-8 text-white px-3 py-3 rounded text-base w-52 bg-gradient-to-r from-purple-500 to-purple-400 hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500">
-                    Get A Free Quote
-                </button>
-            </div>
-
-            <div>
-                <Image
-                    src="/home-section-img.webp"
-                    alt="img"
-                    width={600}
-                    height={600}
-                />
-            </div>
+        <div className="sm:px-24 w-full h-screen bg-cover bg-center flex flex-col gap-6 justify-center max-sm:px-8" style={{backgroundImage: 'url("/msx-bg2.jpg")'}}>
+            <CardSec2 title={'Our Mission'} text={'To empower individuals and organizations through innovative software solutions and comprehensive educational programs that foster growth, enhance skills, and drive technological advancement.'} />
+            <CardSec2 title={'Our Vision'} text={'To be a leading provider of transformative software development and education, inspiring a community of learners and innovators who shape the future through technology. We envision a world where accessible knowledge and cutting-edge tools enable everyone to achieve their full potential.'} />
         </div>
-    );
+    )
 }
 
 export default Section2;

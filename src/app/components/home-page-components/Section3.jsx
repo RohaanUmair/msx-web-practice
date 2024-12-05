@@ -1,69 +1,41 @@
-"use client";
-import { useEffect, useState } from "react";
-import Heading from "./small-components/Heading";
-import { FaSquareFull } from "react-icons/fa";
+import CardSec3 from "./small-components/CardSec3";
+import { GrCertificate } from "react-icons/gr";
+import { MdGroups } from "react-icons/md";
+import { FaShieldAlt } from "react-icons/fa";
+import { FaGears } from "react-icons/fa6";
 
 
 function Section3() {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        fetch("/servicesData.json")
-            .then((response) => response.json())
-            .then((data) => setData(data))
-            .catch((error) => console.error("Error fetching data:", error));
-    }, []);
-
-
-    const [selectedService, setSelectedService] = useState('AI Development');
-
-    if (!data) return <h1>loading</h1>
-
     return (
-        <div className="w-full bg-white sm:px-24 sm:mb-24">
-            <Heading text={'Services We Offer'} />
+        <div className="sm:px-24 h-screen w-full flex flex-col items-center justify-center max-sm:h-full max-sm:pt-5 max-sm:pb-8">
+            <h1 className="text-purple-500 font-semibold text-base max-sm:mb-3">WHY CHOOSE MSX</h1>
+            <h2 className="text-4xl font-semibold max-sm:text-center">Why MSX is Your Best Choice</h2>
 
-            <div className="w-full mt-5 flex max-sm:flex-col">
-                <div className="bg-blue-950 w-1/3 h-full flex flex-col pt-10 shadow z-10 max-sm:w-full">
-                    {
-                        data?.map((item, index) => {
-                            return (
-                                <h1 onClick={() => setSelectedService(item.heading)} key={index} className={`text-white text-lg font-bold h-12 ml-6 pl-6 w-96 max-sm:w-full max-sm:ml-1 flex items-center cursor-pointer hover:underline ${selectedService == item.heading ? "bg-gradient-to-r from-purple-500 to-purple-400" : ""}`}>{item.heading}</h1>
-                            )
-                        })
-                    }
-                </div>
+            <div className="w-full flex gap-6 mt-14 max-sm:flex-wrap max-sm:gap-0 max-sm:px-3 max-sm:mt-8">
+                <CardSec3
+                    icon={<GrCertificate />}
+                    title={'Valuable Certificate'}
+                    desc={'Strong affiliations with prestigious firms and recognition from esteemed institutes'}
+                />
 
-                <div className="px-12 border mt-14 h-full py-12 flex flex-col gap-5 max-sm:py-6 max-sm:mt-0 max-sm:px-7" style={{ boxShadow: '1px 1px 10px 3px #ccc' }}>
-                    {
-                        data.map((item, index) => {
-                            if (item.heading == selectedService) {
-                                return (
-                                    <div key={index}>
-                                        <div className="flex flex-col gap-2">
-                                            <h2 className="font-bold text-2xl max-sm:text-xl">{item.heading}</h2>
-                                            <p className="text-gray-500 text-lg max-sm:text-base">{item.desc}</p>
-                                        </div>
+                <CardSec3
+                    icon={<MdGroups />}
+                    title={'Learning from Successful Professionals'}
+                    desc={'Learn from industry professionals with real-world experience.'}
+                />
 
-                                        <h3 className="text-lg font-bold text-gray-500 my-3">Business Benefits of Choosing Us</h3>
+                <CardSec3
+                    icon={<FaShieldAlt />}
+                    title={'Internships and Jobs'}
+                    desc={'Guaranteed internships and potential job placements.'}
+                />
 
-                                            <ul className="flex flex-col gap-3">
-                                                {
-                                                    item.benefits.map((elem, index) => {
-                                                        return (
-                                                            <li key={index} className="text-gray-500 text-lg max-sm:text-sm"><span className="text-lg font-bold text-gray-500 flex items-center gap-2 max-sm:text-base"><FaSquareFull className="text-sm text-black" /> {elem.benefit}: </span>{elem.detail}</li>
-                                                        )
-                                                    })
-                                                }
-                                            </ul>
-                                    </div>
-                                )
-                            }
-                        })
-                    }
-                </div>
+                <CardSec3
+                    icon={<FaGears />}
+                    title={'Potential Job Offer'}
+                    desc={'Facilitating employment opportunities within our firm'}
+                />
             </div>
-
         </div>
     )
 }

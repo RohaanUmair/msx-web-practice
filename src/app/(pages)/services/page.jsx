@@ -1,13 +1,13 @@
-import Section1 from "../../components/home-page-components/Section1";
-import Section10 from "../../components/home-page-components/Section10";
-import Section2 from "../../components/home-page-components/Section2";
-import Section3 from "../../components/home-page-components/Section3";
-import Section4 from "../../components/home-page-components/Section4";
-import Section5 from "../../components/home-page-components/Section5";
-import Section6 from "../../components/home-page-components/Section6";
-import Section7 from "../../components/home-page-components/Section7";
-import Section8 from "../../components/home-page-components/Section8";
-import Section9 from "../../components/home-page-components/Section9";
+import Section1 from "../../components/services-page-components/Section1";
+import Section10 from "../../components/services-page-components/Section10";
+import Section2 from "../../components/services-page-components/Section2";
+import Section3 from "../../components/services-page-components/Section3";
+import Section4 from "../../components/services-page-components/Section4";
+import Section5 from "../../components/services-page-components/Section5";
+import Section6 from "../../components/services-page-components/Section6";
+import Section7 from "../../components/services-page-components/Section7";
+import Section8 from "../../components/services-page-components/Section8";
+import Section9 from "../../components/services-page-components/Section9";
 
 export default function Services() {
   return (
