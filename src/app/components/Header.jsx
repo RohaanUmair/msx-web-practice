@@ -53,7 +53,7 @@ function Header() {
 
 
     return (
-        <header className={`max-sm:bg-white flex gap-7 items-center w-full justify-center px-20 fixed h-[100px] transition-colors duration-300 max-sm:h-[80px] max-sm:px-8 max-sm:justify-between ${isScrolled ? "bg-white text-black shadow-lg" : "bg-transparent text-white"} z-50`}>
+        <header className={`max-sm:bg-white flex gap-7 items-center w-full justify-center px-20 fixed h-[100px] transition-colors duration-300 max-sm:h-[80px] max-sm:px-8 max-sm:justify-between ${isScrolled ? "bg-white text-black shadow-lg" : "bg-transparent text-white max-sm:shadow-lg"} z-50`}>
             <Image src="/logo.png" alt="logo" width={130} height={130} className={`max-sm:h-20 max-sm:w-20 max-sm: ${isScrolled ? "" : "sm:invert"}`} />
 
             <nav className="flex gap-8 items-center max-sm:hidden">

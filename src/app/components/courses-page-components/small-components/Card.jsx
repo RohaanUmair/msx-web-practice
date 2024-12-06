@@ -24,12 +24,12 @@ const Card = ({ title, desc, icon, link, img, additionalDesc, cardPosRight }) =>
                     className="relative object-cover w-3/4 h-72 bg-cover bg-center rounded-lg shadow-lg  transition-all cursor-pointer duration-300"
                 />
 
-                <div className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md">
+                <div className="absolute top-4 right-4 p-2 bg-white text-xl rounded-full shadow-md">
                     {icon || <FaInfoCircle />}
                 </div>
             </div >
         ) : (
-            <div className="relative flex max-w-full  border border-purple-500 rounded-lg">
+            <div className="relative flex max-w-full border border-purple-500 rounded-lg">
                 <Image
                     alt='img'
                     src={img}
@@ -38,7 +38,7 @@ const Card = ({ title, desc, icon, link, img, additionalDesc, cardPosRight }) =>
                     className="relative object-cover w-3/4 h-72 bg-cover bg-center rounded-lg shadow-lg  transition-all cursor-pointer duration-300"
                 />
 
-                <div className="absolute top-4 right-4 p-2 bg-white rounded-full shadow-md">
+                <div className="absolute top-4 right-4 p-2 bg-white text-xl rounded-full shadow-md">
                     {icon || <FaInfoCircle />}
                 </div>
 

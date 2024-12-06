@@ -4,7 +4,7 @@ import { FaInfoCircle } from 'react-icons/fa';
 const Card2 = ({ title, desc, icon, link, img }) => {
     return (
         <div
-            className="relative w-72 h-96 bg-cover bg-center rounded-lg shadow-lg hover:scale-105 transition-all cursor-pointer duration-100"
+            className="relative w-72 h-96 bg-cover bg-center rounded-lg shadow-lg transition-all cursor-pointer duration-100"
             style={{
                 backgroundImage: `url(${img})`,
             }}

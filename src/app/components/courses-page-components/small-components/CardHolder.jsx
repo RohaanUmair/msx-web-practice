@@ -1,21 +1,13 @@
-import Card from "../courses-page-components/small-components/Card";
-import { MdManageAccounts } from "react-icons/md";
 import { FaComputer } from "react-icons/fa6";
+import Card from "./Card";
+import { MdManageAccounts } from "react-icons/md";
 import { BsPersonRaisedHand } from "react-icons/bs";
-import Card2 from "../courses-page-components/small-components/Card2";
-import SwitchBgImgsSection from "../services-page-components/small-components/SwitchBgImgsSection";
+import Card2 from "./Card2";
 
-
-
-function Section2() {
+function CardHolder() {
     return (
-        <div className="max-sm:px-4 sm:px-24 sm:py-11 w-full max-sm:py-8">
-            <div className="flex items-center flex-col w-full mb-12">
-                <h1 className="text-purple-500 font-semibold max-sm:font-normal text-base max-sm:mb-3">Courses we offer</h1>
-                <h2 className="max-sm:text-2xl max-sm:leading-6 w-[90%] text-4xl font-semibold max-sm:text-center">Delivering IT solutions that enable you to work smarter.</h2>
-            </div>
-
-            {/* <div className="flex flex-col gap-8 justify-between mt-8">
+        <>
+            <div className="flex flex-col gap-8 justify-between mt-8 max-sm:hidden">
                 <Card
                     title="Management Courses"
                     desc="This is a description for the sample card."
@@ -23,6 +15,7 @@ function Section2() {
                     link="/"
                     img="/management-course.jpg"
                     additionalDesc="Our management courses are designed to provide you with a deep understanding of business operations, project management, and organizational leadership. Learn how to manage resources, optimize processes, and lead teams to success. These courses offer practical techniques and strategies to help you excel in managing people, projects, and entire organizations"
+                    cardPosRight={false}
                 />
 
                 <Card
@@ -42,11 +35,11 @@ function Section2() {
                     link="/"
                     img="/leadership-course.jpg"
                     additionalDesc="Unlock your leadership potential with our dynamic leadership courses. Learn the key strategies for effective decision-making, team management, conflict resolution, and inspiring others. Whether you're aiming for a managerial position or seeking to enhance your leadership skills, these courses will help you lead with confidence and drive results."
+                    cardPosRight={false}
                 />
-            </div> */}
+            </div>
 
-            {/*
-            <div className="flex gap-8 justify-between mt-60">
+            <div className="flex flex-col gap-8 items-center justify-between mt-8 sm:hidden">
                 <Card2
                     title="Management Courses"
                     desc="This is a description for the sample card."
@@ -61,7 +54,6 @@ function Section2() {
                     icon={<FaComputer />}
                     link="/"
                     img="/it-course.jpg"
-                    cardPosRight
                 />
 
                 <Card2
@@ -71,19 +63,9 @@ function Section2() {
                     link="/"
                     img="/leadership-course.jpg"
                 />
-
-                <Card2
-                    title="Management Courses"
-                    desc="This is a description for the sample card."
-                    icon={<MdManageAccounts />}
-                    link="/"
-                    img="/management-course.jpg"
-                />
-            </div> */}
-
-            <SwitchBgImgsSection />
-        </div>
+            </div>
+        </>
     )
 }
 
-export default Section2;
+export default CardHolder;

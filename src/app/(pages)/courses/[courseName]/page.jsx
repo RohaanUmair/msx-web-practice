@@ -3,6 +3,7 @@ import Card from "../../../components/courses-page-components/small-components/C
 import { FaComputer } from "react-icons/fa6";
 import { BsPersonRaisedHand } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
+import CardHolder from "../../../components/courses-page-components/small-components/CardHolder";
 import Link from "next/link";
 
 
@@ -21,12 +22,12 @@ function Course({ params }) {
 
     return (
         <>
-            <div className="h-[100px] bg-black w-full">
+            <div className="h-[100px] max-sm:h-[80px] bg-black w-full">
             </div >
 
 
-            <div className="sm:px-24 flex justify-center flex-col w-full py-8 max-w-screen-2xl max-sm:px-4">
-                <p className="text-left mb-4 text-gray-700 flex items-center gap-1 ">
+            <div className="sm:px-24 flex justify-center flex-col w-full py-8 max-w-screen-2xl max-sm:px-6">
+                <p className="text-left mb-4 text-gray-700 flex items-center gap-1 text-xs">
                     <Link href='/'>Home</Link>
                     <IoIosArrowForward />
                     <Link href='/courses'>Courses</Link>
@@ -35,44 +36,14 @@ function Course({ params }) {
                 </p>
 
 
-                <h1 className="text-5xl font-semibold capitalize text-purple-500">{courseName} Courses</h1>
-                <p className="text-xl mt-2">Here is a List of {courseName} Courses we are Currently Offering</p>
+                <h1 className="text-5xl max-sm:text-3xl font-semibold capitalize text-purple-500">{courseName} Courses</h1>
+                <p className="text-xl max-sm:text-sm max-sm:w-[80%] mt-2">Here is a List of {courseName} Courses we are Currently Offering</p>
 
 
-                <div className="flex flex-col gap-8 justify-between mt-8">
-                    <Card
-                        title="Management Courses"
-                        desc="This is a description for the sample card."
-                        icon={<MdManageAccounts />}
-                        link="/"
-                        img="/management-course.jpg"
-                        additionalDesc="Our management courses are designed to provide you with a deep understanding of business operations, project management, and organizational leadership. Learn how to manage resources, optimize processes, and lead teams to success. These courses offer practical techniques and strategies to help you excel in managing people, projects, and entire organizations"
-                        cardPosRight={false}
-                    />
-
-                    <Card
-                        title="IT Courses"
-                        desc="This is a description for the sample card."
-                        icon={<FaComputer />}
-                        link="/"
-                        img="/it-course.jpg"
-                        additionalDesc="Stay ahead in the tech world with our comprehensive IT courses, designed to equip you with essential skills in programming, web development, cybersecurity, data analysis, and more. Whether you're a beginner or looking to advance your career, our courses offer practical knowledge and hands-on experience to thrive in the ever-evolving field of technology."
-                        cardPosRight
-                    />
-
-                    <Card
-                        title="Ladership Courses"
-                        desc="This is a description for the sample card."
-                        icon={<BsPersonRaisedHand />}
-                        link="/"
-                        img="/leadership-course.jpg"
-                        additionalDesc="Unlock your leadership potential with our dynamic leadership courses. Learn the key strategies for effective decision-making, team management, conflict resolution, and inspiring others. Whether you're aiming for a managerial position or seeking to enhance your leadership skills, these courses will help you lead with confidence and drive results."
-                        cardPosRight={false}
-                    />
-                </div>
+               <CardHolder />
 
                 <Link href='/courses' className="w-full flex justify-center mt-8">
-                    <button className='border mt-2 border-purple-500 bg-gradient-to-r from-purple-500 to-purple-400 text-white px-16 m-auto py-3 rounded text-base hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500 flex items-center'>Show More Courses <IoIosArrowForward /></button>
+                    <button className='border mt-2 max-sm:w-[90%] border-purple-500 bg-gradient-to-r from-purple-500 to-purple-400 text-white px-16 m-auto py-3 rounded text-base hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500 flex items-center justify-center'>Show More Courses <IoIosArrowForward className="max-sm:text-2xl" /></button>
                 </Link>
             </div>
         </>

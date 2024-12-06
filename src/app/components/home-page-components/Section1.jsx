@@ -1,8 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function Section1() {
     return (
-        <div className="bg-cover bg-center h-screen w-full pt-[100px] sm:px-24 max-sm:px-8" style={{ backgroundImage: 'url("/msx-bg.jpeg")' }}>
+        <div className="bg-cover bg-center h-screen w-full pt-[100px] sm:px-24 max-sm:px-8 relative">
+            <div className="absolute inset-0 -z-10">
+                <Image
+                    src="/bg-courses.jpg"
+                    alt="Background Image"
+                    layout="fill"
+                    objectFit="cover"
+                    quality={100}
+                    priority
+                />
+            </div>
             <div className="w-1/2 text-white h-full flex flex-col justify-center max-sm:w-full">
                 <h1 className="text-4xl font-bold max-sm:text-3xl">Empower Your Business & Skills with Expert IT Services and Courses</h1>
 
