@@ -6,7 +6,7 @@ function Section1() {
         <div className="bg-cover bg-center h-screen w-full pt-[100px] sm:px-24 max-sm:px-8 relative">
             <div className="absolute inset-0 -z-10">
                 <Image
-                    src="/bg-courses.jpg"
+                    src="/msx-bg.jpeg"
                     alt="Background Image"
                     layout="fill"
                     objectFit="cover"

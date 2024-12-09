@@ -12,8 +12,8 @@ import { FaLocationDot } from "react-icons/fa6";
 function Footer() {
     const services = ['Predictive Modelling', 'Chat GPT Integration', 'Natural Language Processing', 'Machine Learning', 'Computer Vision', 'Big Data Analysis'];
     const getInTouch = [
-        { text: '0333-1234512', icon: <FaPhoneAlt /> },
-        { text: 'info@MSXsolutions.com', icon: <IoMdMail /> },
+        { text: '0331-8106045', icon: <FaPhoneAlt /> },
+        { text: 'support@microsysx.com', icon: <IoMdMail /> },
         { text: 'United Arab Emirates', icon: <FaLocationDot /> },
         { text: 'Pakistan', icon: <FaLocationDot /> }, { text: 'United Kingdom', icon: <FaLocationDot /> },
         { text: 'United States', icon: <FaLocationDot /> }

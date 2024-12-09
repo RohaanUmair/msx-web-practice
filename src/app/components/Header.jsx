@@ -22,16 +22,7 @@ function Header() {
         }, {
             name: 'Courses',
             href: '/courses'
-        }, {
-            name: 'Portfolio',
-            href: '/portfolio'
-        }, {
-            name: 'Company',
-            href: '/company'
-        }, {
-            name: 'Resource',
-            href: '/resource'
-        },
+        }
     ];
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -53,26 +44,26 @@ function Header() {
 
 
     return (
-        <header className={`max-sm:bg-white flex gap-7 items-center w-full justify-center px-20 fixed h-[100px] transition-colors duration-300 max-sm:h-[80px] max-sm:px-8 max-sm:justify-between ${isScrolled ? "bg-white text-black shadow-lg" : "bg-transparent text-white max-sm:shadow-lg"} z-50`}>
+        <header className={`max-sm:bg-white flex gap-7 items-center w-full justify-between px-20 fixed h-[100px] transition-colors duration-300 max-sm:h-[80px] max-sm:px-8 ${isScrolled ? "bg-white text-black shadow-lg" : "bg-transparent text-white max-sm:shadow-lg"} z-50`}>
             <Image src="/logo.png" alt="logo" width={130} height={130} className={`max-sm:h-20 max-sm:w-20 max-sm: ${isScrolled ? "" : "sm:invert"}`} />
 
-            <nav className="flex gap-8 items-center max-sm:hidden">
+            <nav className="flex gap-16 items-center max-sm:hidden">
                 {
                     navs.map((nav, i) => {
                         return (
                             <Link href={nav.href} key={i}>
-                                <p className="hover:underline">{nav.name}</p>
+                                <p className="hover:underline text-lg">{nav.name}</p>
                             </Link>
                         )
                     })
                 }
+                <FaSearch className="max-sm:hidden" />
+                <div className="flex items-center gap-2 max-sm:hidden">
+                    <FaPhoneAlt />
+                    <p>0331-8106045</p>
+                </div>
             </nav>
-            <FaSearch className="max-sm:hidden" />
 
-            <div className="flex items-center gap-2 max-sm:hidden">
-                <FaPhoneAlt />
-                <p>0333-1234512</p>
-            </div>
 
             <button className="max-sm:hidden bg-gradient-to-r from-purple-500 to-purple-400 text-white px-3 py-3 rounded text-base hover:from-white hover:to-white hover:text-purple-500 hover:border hover:border-purple-500">Free AI Consultation</button>
 

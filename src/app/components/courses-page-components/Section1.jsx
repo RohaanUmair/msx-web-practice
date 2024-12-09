@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 
 function Section1() {
-    const texts = ["IT", "Management", "Leadership", "Techinal"];
+    const texts = ["Engineering", "Project Management", "Health and Safety", "Leadership", "IT", "AI"];
     const [index, setIndex] = useState(0);
     const [animationKey, setAnimationKey] = useState(0);
 
@@ -34,10 +34,10 @@ function Section1() {
                 />
             </div>
             <h1
-                className="text-6xl h-20 max-sm:mt-9 max-sm:text-4xl font-semibold text-purple-500 overflow-hidden"
+                className="text-6xl h-32 max-sm:mt-9 max-sm:text-4xl font-semibold text-purple-500 overflow-hidden"
                 key={animationKey}
             >
-                <span className="animate-textChange h-full">{texts[index]} <br className="sm:hidden" /> Courses</span>
+                <span className="animate-textChange h-full">{texts[index]} <br /> Courses</span>
             </h1>
 
             <h2 className="text-3xl font-semibold text-white sm:w-[60%] max-sm:text-lg">Computer And Management Education Institute</h2>

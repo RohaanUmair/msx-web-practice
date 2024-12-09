@@ -1,0 +1,104 @@
+[
+    {
+        "topicOf": "IT",
+        "title": "Full Stack Web Development",
+        "smDesc": "Learn how to build web applications from the front-end to the back-end.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "Our Full Stack Web Development course provides you with the skills to create dynamic web applications. You will master both client-side and server-side development, including HTML, CSS, JavaScript, and backend technologies like Node.js and databases. This comprehensive course prepares you to become a versatile web developer."
+    },
+    {
+        "topicOf": "IT",
+        "title": "SQA",
+        "smDesc": "Understand Software Quality Assurance concepts and practices.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "The SQA course introduces the principles of software quality assurance. Learn how to ensure software quality, implement testing strategies, and identify defects in applications. You'll acquire hands-on experience with testing tools and methodologies, preparing you for roles in quality assurance and testing."
+    },
+    {
+        "topicOf": "IT",
+        "title": "Frontend Web Development",
+        "smDesc": "Master the art of creating visually appealing web interfaces.",
+        "link": "/courses/frontend-courses",
+        "img": "/management-course.jpg",
+        "description": "The Frontend Web Development course focuses on building responsive and user-friendly web interfaces. You will learn HTML, CSS, and JavaScript, along with popular libraries like React and frameworks such as Tailwind CSS. This course is ideal for anyone looking to specialize in front-end development."
+    },
+
+
+    {
+        "topicOf": "Leadership",
+        "title": "Leadership Development for Engineers",
+        "smDesc": "Develop leadership skills tailored to engineers in technical environments.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "This course is designed to help engineers become effective leaders. It covers leadership strategies, decision-making, and communication techniques in engineering environments. By the end of the course, you'll be equipped to lead teams and projects with confidence and skill."
+    },
+    {
+        "topicOf": "Leadership",
+        "title": "Strategic Leadership",
+        "smDesc": "Gain the tools needed to lead organizations strategically.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "Strategic Leadership focuses on high-level leadership techniques for business growth and long-term success. You'll learn how to develop strategic plans, manage change, and navigate organizational challenges. This course is ideal for professionals looking to take on leadership roles in dynamic environments."
+    },
+    {
+        "topicOf": "Leadership",
+        "title": "Leadership Transformation",
+        "smDesc": "Transform your leadership style for better team management.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "Leadership Transformation helps you refine your leadership approach to motivate and guide teams effectively. This course emphasizes emotional intelligence, conflict resolution, and fostering a positive workplace culture. It’s perfect for leaders who want to inspire their teams to achieve greater success."
+    },
+    {
+        "topicOf": "Leadership",
+        "title": "Organization Leadership",
+        "smDesc": "Master the art of leading teams and managing organizational change.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "The Organization Leadership course delves into the key principles of leadership within organizations. You'll learn to drive change, manage teams, and foster innovation. This course prepares you to take on leadership roles in both small teams and large organizations."
+    },
+
+
+    {
+        "topicOf": "Project Management",
+        "title": "PMP Training",
+        "smDesc": "Prepare for the Project Management Professional certification exam.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "The PMP Training course prepares you for the Project Management Professional certification exam. You will learn about project planning, execution, monitoring, and closing. This course equips you with the knowledge and skills to manage complex projects across different industries."
+    },
+    {
+        "topicOf": "Project Management",
+        "title": "Agile Project Management with Jira",
+        "smDesc": "Learn Agile project management and how to use Jira for project tracking.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "This course covers Agile project management methodologies and the use of Jira for project tracking. You’ll learn how to manage projects using Scrum, Kanban, and other Agile techniques. By the end of the course, you'll be able to run efficient Agile projects with a focus on collaboration and iterative progress."
+    },
+    {
+        "topicOf": "Project Management",
+        "title": "Engineering Project Management Training with Primavera",
+        "smDesc": "Master engineering project management using Primavera software.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "The Engineering Project Management course with Primavera teaches you how to manage engineering projects using Primavera software. Learn how to schedule, plan, and control large-scale projects, ensuring they are completed on time and within budget. This course is ideal for engineers and project managers in the construction and manufacturing industries."
+    },
+    {
+        "topicOf": "Project Management",
+        "title": "CSM Training",
+        "smDesc": "Get Certified ScrumMaster (CSM) training to lead Scrum teams effectively.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "CSM Training prepares you to become a Certified ScrumMaster and lead Agile Scrum teams. You'll learn the principles of Scrum, roles and responsibilities, and how to facilitate Scrum ceremonies. This course is perfect for those who want to implement Scrum in their organizations and improve team productivity."
+    },
+
+    
+    {
+        "topicOf": "Engineering",
+        "title": "Agile Project Management with Jira",
+        "smDesc": "Learn Agile project management with Jira to manage engineering projects.",
+        "link": "/courses/it-courses",
+        "img": "/management-course.jpg",
+        "description": "This course introduces you to Agile project management concepts and how to implement them using Jira software. Learn to manage engineering projects by applying Agile principles such as flexibility, continuous feedback, and iterative progress. This course prepares you to lead engineering projects efficiently and adaptively."
+    }
+]

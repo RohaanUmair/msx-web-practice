@@ -24,7 +24,7 @@ const Card2 = ({ title, desc, icon, link, img }) => {
                 href={link}
                 className="absolute bottom-4 right-2 bg-gradient-to-r from-purple-500 to-purple-400 text-white px-4 py-2 rounded-lg"
             >
-                See Courses
+                See Course
             </a>
         </div>
     );
